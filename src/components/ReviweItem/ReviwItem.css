@@ -1,0 +1,53 @@
+.reviwe-cart{
+    display: flex;
+    border: 1px solid rebeccapurple;
+    margin-top: 20px;
+    border-radius: 10px;
+}
+
+.combine-text{
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    align-items: center;
+    margin-right: 20px;
+}
+
+.reviwe-cart img{
+    width: 91px;
+    height: 91px;
+    margin: 5px;
+}
+.wright-reviwe{
+    margin-left: 5px;
+    margin-top: 6px;
+}
+.wright-reviwe p,h6{
+  margin: 0;
+    font-size: 13px;
+}
+
+.reviwe-delete{
+   justify-content: space-between;
+   
+}
+.button-delete{
+    background-color: rgba(255, 0, 0, 0.261);
+    border-radius: 50%;
+    height: 55px;
+    width: 55px;
+    border: none;
+}
+
+.delete-icon{
+    height: 31.43px;
+    width: 27.5px;
+    color: rgba(154, 39, 39, 0.44);
+}
+
+.delete-icon:hover{
+    color: red;
+    width: 35px;
+    height: 40px;
+    cursor: pointer;
+}
