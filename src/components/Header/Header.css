@@ -17,3 +17,23 @@
 .header a:hover{
     color: orange;
 }
+
+.header-email{
+    color: #FFFFFF;
+}
+
+#logout-btn{
+    color: rgb(169, 42, 42);
+}
+
+#logout-btn:hover{
+    color: orange;
+}
+
+#login-btn{
+    color: rgb(60, 128, 60);
+}
+
+#login-btn:hover{
+    color: orange;
+}

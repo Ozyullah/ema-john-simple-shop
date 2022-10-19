@@ -32,6 +32,7 @@
     border-radius: 5px;
     box-shadow: 3px 5px;
     padding-left: 8px;
+    border: 0.5px solid rgba(45, 43, 43, 0.889);
 }
 
 .email-control input:hover {
@@ -51,7 +52,8 @@
 }
 
 .password-control {
-    margin-top: 10px;
+    margin-top: 20px;
+    
 }
 
 .password-control label {
@@ -68,8 +70,9 @@
 .password-control input {
     height: 30px;
     width: 350px;
+    border: 0.5px solid rgba(45, 43, 43, 0.889);
     border-radius: 5px;
-    box-shadow: 3px 5px;
+    box-shadow: 3px 3px;
     padding-left: 8px;
 }
 
@@ -78,7 +81,8 @@
     width: 355px;
 }
 
-.btn-form {
+.btn-form{
+    border: none;
     height: 40px;
     width: 350px;
     margin-top: 30px;
@@ -93,4 +97,14 @@
 .btn-form:hover {
     background-color: #bd8634d6;
     width: 330px;
+}
+
+.para-form {
+    font-family: 'Lato';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 18px;
+    letter-spacing: 0.0025em;
+    color: #2A414F;
 }
